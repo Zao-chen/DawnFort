@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include <QKeyEvent>
+#include <QTimer>
 
 namespace Ui {
 class game;
@@ -21,10 +22,13 @@ public:
 
 protected:
     void keyPressEvent(QKeyEvent *event);
+    void keyReleaseEvent(QKeyEvent *event);
 private:
     Ui::game *ui;
-    int player1_x=20,player1_y=100;
-    int player2_x=1000,player2_y=100;
+    QList<int> keys;
+    QTimer* keyRespondTimer;
+    void slowTimeOut();
+
 
 };
 
