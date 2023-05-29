@@ -18,14 +18,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     game.cpp \
     main.cpp \
+    player1win.cpp \
+    player2win.cpp \
     widget.cpp
 
 HEADERS += \
     game.h \
+    player1win.h \
+    player2win.h \
     widget.h
 
 FORMS += \
     game.ui \
+    player1win.ui \
+    player2win.ui \
     widget.ui
 
 # Default rules for deployment.
