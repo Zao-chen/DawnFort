@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>game</class>
+ <widget class="QWidget" name="game">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>724</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_player1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>470</y>
+     <width>61</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/charactor/res/Charactor_Red.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_player2">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>420</y>
+     <width>51</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/charactor/res/Charactor_Blue.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_player2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>400</y>
+     <width>100</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_go_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>420</y>
+     <width>100</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>50</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="talk_1">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>380</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>run</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_player1_zidan">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>250</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>--&gt;&gt;&gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_player2_zidan">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;&lt;&lt;&lt;--</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_player1">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>450</y>
+     <width>100</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar_go">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>470</y>
+     <width>100</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>50</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="talk_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>430</y>
+     <width>158</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>run</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

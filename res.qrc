@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/charactor">
+        <file>res/Charactor_Blue.png</file>
+        <file>res/Charactor_Red.png</file>
+        <file>res/Charactor_Red_Walk.png</file>
+    </qresource>
+</RCC>
